@@ -10,14 +10,14 @@ import static net.bytebuddy.matcher.ElementMatchers.named;
 
 public class Masulsa {
     public static void main(String[] args) {
-        try {
-            new ByteBuddy().redefine(Moja.class)
-                            .method(named("pullOut")).intercept(FixedValue.value("Tiger"))
-                            .make().saveIn(new File("/Users/nhn/workspace/programming/java/the-java/out/production/classes"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        // try {
+        //     new ByteBuddy().redefine(Moja.class)
+        //                     .method(named("pullOut")).intercept(FixedValue.value("Tiger"))
+        //                     .make().saveIn(new File("/Users/nhn/workspace/programming/java/the-java/out/production/classes"));
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // }
+        //
         System.out.println(new Moja().pullOut());
     }
 }
