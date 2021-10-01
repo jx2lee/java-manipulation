@@ -1,5 +1,8 @@
 package com.jx2lee.thejava.reflection;
 
+import com.jx2lee.thejava.annotation.TestAnnotation;
+
+@TestAnnotation
 public class ClassInfo {
     private static String b = "test1";
     private static final String c = "test2";
