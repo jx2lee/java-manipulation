@@ -3,7 +3,7 @@ package com.jx2lee.thejava.reflection;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 
-public class Main {
+public class MainPartOne {
     public static void main(String[] args) throws ClassNotFoundException {
 
         // Check Class Info - type1
