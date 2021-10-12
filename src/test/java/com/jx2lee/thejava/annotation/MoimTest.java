@@ -1,5 +1,6 @@
-package com.jx2lee.thejava;
+package com.jx2lee.thejava.annotation;
 
+import com.jx2lee.thejava.Moim;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

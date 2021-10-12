@@ -2,8 +2,8 @@ package com.jx2lee.thejava;
 
 public class Moim {
 
-    int maxNumberOfAttendees;
-    int numberOfEnrollment;
+    public int maxNumberOfAttendees;
+    public int numberOfEnrollment;
 
     public boolean isEnrollmentFull() {
         if (maxNumberOfAttendees == 0) {
