@@ -1,3 +1,5 @@
 rootProject.name = 'java-manipulation'
 include 'java-agent'
 include 'reflection-spring'
+include 'checkioc'
+

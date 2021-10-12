@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'jacoco'
     id "net.bytebuddy.byte-buddy-gradle-plugin" version "1.11.15"
+    id 'maven-publish'
 }
 
 group 'com.jx2lee'
@@ -56,6 +57,18 @@ jacocoTestCoverageVerification {
                 value = 'TOTALCOUNT'
                 maximum = 0.3
             }
+        }
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.jx2lee'
+            artifactId = 'thejava'
+            version = '1.0'
+
+            from components.java
         }
     }
 }

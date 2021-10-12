@@ -11,6 +11,9 @@ public class MainPartTwo {
         Constructor<?> constructor = NewClassInfoClass.getConstructor(String.class);
         NewClassInfo newClassInfo = (NewClassInfo) constructor.newInstance("test");
 
+        System.out.println("newClassInfo = " + newClassInfo);
+        System.out.println("newClassInfo.getPrivateField() = " + newClassInfo.getPrivateField());
+
         System.out.println();
         System.out.println("newClassInfo = " + newClassInfo);
         System.out.println("newClassInfo. = " + newClassInfo.getPrivateField());
