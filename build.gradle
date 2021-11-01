@@ -15,6 +15,11 @@ repositories {
 dependencies {
     implementation 'net.bytebuddy:byte-buddy:1.11.15'
     implementation group: 'cglib', name: 'cglib', version: '2.2.2'
+    implementation 'com.jx2lee:thejava:1.0'
+
+    // https://mvnrepository.com/artifact/com.google.auto.service/auto-service
+    implementation group: 'com.google.auto.service', name: 'auto-service', version: '1.0'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
